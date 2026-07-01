@@ -21,3 +21,12 @@ kotlin {
 tasks.test {
     useJUnitPlatform()
 }
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            from(components["kotlin"])
+            artifactId = "Commons"
+        }
+    }
+}
