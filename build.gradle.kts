@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "net.ixct.commons"
-version = "1.0.0-alpha.1-4"
+version = "1.0.0-alpha.1-5"
 
 repositories {
     mavenCentral()
